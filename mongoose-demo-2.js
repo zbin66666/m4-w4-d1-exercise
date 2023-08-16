@@ -22,5 +22,5 @@ kittySchema.methods.speak = function () {
 }
 const Kitten = mongoose.model('Kitten', kittySchema);
 
-const fluffy = new Kitten({ name: 'fluffy'});
-fluffy.speak();
+const myFavCat = new Kitten({ name: 'fluffy'});
+myFavCat.speak();
